@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+.yellow-box {
+  background: #d4ff00;
+}
+
+.pink-box {
+  background: #ff00e1;
+}
+
+/* Q1回答 */
+.q1-box {
+  width: 400px;
+  height: 400px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+/* Q2回答 */
+.q2-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+/* Q3回答 */
+.q3-container {
+  display: flex;
+  justify-content: center;
+}
+.q3-blue-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.q3-green-box {
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+  margin-left: 150px;
+}
+
+/* Q4回答 */
+.q4-container {
+  width: 600px;
+  margin: 0 auto;
+}
+.q4-red-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  float: left;
+}
+
+.q4-blue-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  float: left;
+}
+.q4-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Q5回答 */
+.q5-container {
+  display: flex;
+  justify-content: center;
+}
+
+.q5-red-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q5-blue-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q5-orange-box {
+  width: 300px;
+  height: 300px;
+  background: #ff8400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Q6回答 */
+.q6-container {
+  display: flex;
+  justify-content: center;
+}
+
+.q6-green-box {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6-yellow-box {
+  width: 300px;
+  height: 300px;
+  background: #d4ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6-pink-box {
+  width: 300px;
+  height: 300px;
+  background: #ff00e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Q7回答 */
+.q7-container {
+  display: flex;
+  justify-content: center;
+}
+
+.q7-red-box {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.q7-blue-box {
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+  display: none;
+}
+
+.q7-green-box {
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
