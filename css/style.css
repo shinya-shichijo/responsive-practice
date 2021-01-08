@@ -70,6 +70,7 @@
 .q5-container {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .q5-red-box {
@@ -130,6 +131,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  order: 3;
 }
 
 
